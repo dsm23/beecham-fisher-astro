@@ -12,6 +12,18 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
 
 # environment variables
 .env
