@@ -6,6 +6,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
+    "fmt": "prettier --write .",
+    "fmt.check": "prettier --check .",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -16,6 +18,8 @@
   },
   "devDependencies": {
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "prettier": "^3.3.2",
+    "prettier-plugin-css-order": "^2.1.2"
   }
 }
