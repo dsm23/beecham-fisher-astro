@@ -6,7 +6,7 @@ pull_request_rules:
       - check-success~=analyse \([a-z]*\)
       - check-success=build
       - check-success=dependency-review
-      # - check-success~=playwright-tests \(\d, \d\)
+      - check-success~=playwright-tests \(\d, \d\)
     actions:
       review:
         type: APPROVE
@@ -17,7 +17,7 @@ pull_request_rules:
       - check-success~=analyse \([a-z]*\)
       - check-success=build
       - check-success=dependency-review
-      # - check-success~=playwright-tests \(\d, \d\)
+      - check-success~=playwright-tests \(\d, \d\)
     actions:
       review:
         type: APPROVE
@@ -28,7 +28,7 @@ pull_request_rules:
       - check-success~=analyse \([a-z]*\)
       - check-success=build
       - check-success=dependency-review
-      # - check-success~=playwright-tests \(\d, \d\)
+      - check-success~=playwright-tests \(\d, \d\)
       - "#approved-reviews-by>=1"
     actions:
       merge:
